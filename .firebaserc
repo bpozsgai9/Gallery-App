@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webfejl-2024": {
+      "hosting": {
+        "my-project": [
+          "webfejl-2024"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webfejl-2024"
+  }
+}

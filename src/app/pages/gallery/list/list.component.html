@@ -1,0 +1,15 @@
+<div class="imageList">
+    <mat-form-field appearance="fill">
+        <mat-select (selectionChange)="reload()" [(ngModel)]="choosenImage">
+            <mat-option *ngFor="let obj of galleryObjectInput" [value]="obj">{{obj.id}}</mat-option>
+        </mat-select>
+
+    </mat-form-field>
+</div>
+
+<!-- <div>
+    <select (change)="reload()" [(ngModel)]="choosenImage">
+        <option *ngFor="let obj of galleryObjectInput" [ngValue]="obj">{{obj.id}}</option>
+    </select>
+</div>
+-->
